@@ -22,7 +22,7 @@ Antes FE00:0:0:1:0:0:0:56
 Depois FE00:0:0:1::56
 
 
-Expandindo endereços IPv6 abreviados
+<b>Expandindo endereços IPv6 abreviados</b>
 
 Para expandir um endereço IPv6 de volta ao seu número completo não abreviado de 32 dígitos, basta
 aplicar o algoritmo ao contrário.
