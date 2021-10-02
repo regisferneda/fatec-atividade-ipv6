@@ -5,6 +5,8 @@
         <title>IPV6</title>
         <!-- link rel="stylesheet" type="text/css" href="style.css" -->
         <script type="text/javascript" src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+
     </head>
         
     <body>
@@ -12,30 +14,26 @@
         <center><h2> 2º semestre de Gestão da Tecnologia da Informação</h2></center>
         <center><h3> Grupo 04: Alessandro, Douglas, Herbet, Milene, Régis e Valdete</h3></center>
 
-        
-            <fieldset>
                 <form>
-                <center><h2>Conversor de IPV6</h2></center>
-                <div>
+                    <br>
+                    <center><h2>IPV6</h2></center>
                     <input type="text" id="txtCompactar" name="cxCompactar" placeholder="Informe aqui o IPV6 para Compactar" onclick="apagarTexto1()" style="width:300px">
-                    <input type="button" value="COMPACTAR" style="width:100px" onclick="compactarIP()">
+                    <input type="button" value="COMPACTAR"  onclick="compactarIP()" class="btnForm">
                     <input type="text" id="resCompactar" name="cxResCompactar" placeholder="O resultado aparecerá aqui..." disabled style="width:300px">
                     <BR> <br>
                     
                     <input type="text" id="txtExpandir" name="cxExpandir" placeholder="Informe aqui o IPV6 para Expandir" onclick="apagarTexto2()" style="width:300px">
-                    <input type="button" value="EXPANDIR" style="width:100px" onclick="expandirIP()">
+                    <input type="button" value="EXPANDIR" onclick="expandirIP()" class="btnForm">
                     <input type="text" id="resExpandir" name="cxResExpandir" placeholder="O resultado aparecerá aqui..." disabled style="width:300px">
                     <br> <br>
                     
-                    <input type="button" id="btnLimpar" name="Limpar" value="Limpar os dados" onclick="limpar()">
+                    <center><input type="button" id="btnLimpar" name="Limpar" value="LIMPAR" onclick="limpar()" class="btnForm"></center>
                     <br> <br>
-                </div>
                 </form>
-            </fieldset>
+        <img src="feliz.png" id="imgFeliz">
 
     </body>
 </html>
-<DOCTYPE html>
 
 
 
